@@ -112,8 +112,8 @@ export default function LeafDefectDetection() {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full mb-4">
             <Leaf className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">AI Crop Defect Detection</h1>
-          <p className="text-gray-600 text-lg">Upload a crop image to detect diseases and defects using YOLOv8 model</p>
+          <h1 className="text-4xl font-bold text-gray-800 mb-2">AI Leaf Defect Detection</h1>
+          <p className="text-gray-600 text-lg">Upload a leaf image to detect defect using YOLOv8 model</p>
         </div>
 
         <div className="grid gap-6 lg:grid-cols-2">
@@ -150,7 +150,7 @@ export default function LeafDefectDetection() {
                     <Upload className="w-8 h-8 text-emerald-600" />
                   </div>
                   <div>
-                    <p className="text-lg font-medium text-gray-700">Drop your crop image here</p>
+                    <p className="text-lg font-medium text-gray-700">Drop your leaf image here</p>
                     <p className="text-sm text-gray-500 mt-1">or click to browse files</p>
                   </div>
                   <p className="text-xs text-gray-400">Supports JPG, PNG, WebP formats</p>
@@ -265,7 +265,7 @@ export default function LeafDefectDetection() {
               <Camera className="w-6 h-6 text-emerald-600" />
             </div>
             <h3 className="font-semibold text-gray-800 mb-2">Easy Upload</h3>
-            <p className="text-sm text-gray-600">Simply drag and drop or click to upload your crop images</p>
+            <p className="text-sm text-gray-600">Simply drag and drop or click to upload your leaf images</p>
           </div>
 
           <div className="text-center p-6">
@@ -273,7 +273,7 @@ export default function LeafDefectDetection() {
               <Leaf className="w-6 h-6 text-teal-600" />
             </div>
             <h3 className="font-semibold text-gray-800 mb-2">AI Analysis</h3>
-            <p className="text-sm text-gray-600">Advanced YOLOv8 (you only look once) model to detect diseases and defects</p>
+            <p className="text-sm text-gray-600">Advanced YOLOv8 (you only look once) model to detect defects</p>
           </div>
 
           <div className="text-center p-6">
