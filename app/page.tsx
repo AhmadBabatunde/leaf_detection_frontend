@@ -112,7 +112,7 @@ export default function LeafDefectDetection() {
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full mb-4">
             <Leaf className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-4xl font-bold text-gray-800 mb-2">AI Leaf Defect Detection</h1>
+          <h1 className="text-4xl font-bold text-gray-800 mb-2">AI Crop Defect Detection</h1>
           <p className="text-gray-600 text-lg">Upload a leaf image to detect defect using YOLOv8 model</p>
         </div>
 
